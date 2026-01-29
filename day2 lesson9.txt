@@ -1,0 +1,136 @@
+<html>
+<title> Притулок для тварин </title>
+
+<body>
+    <header>
+        <!-- Шапка: назва сайту, логотип, навігація -->
+        <a class="one" href = "#Пушок"> Пушок </a>
+        <a class="two" href = "#Хвостик"> Хвостик </a> 
+        <a class="three" href = "#Жоржинка"> Жоржинка </a> 
+        <a class="four" href = "#Бобік"> Бобік </a> 
+        <p> <img id="Пушок"
+         src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL2EDRG6Bwn2QUCmyQQLAjjWcgHyI96W17dkZrXegt55VwzNuMV9bQqbUuEgD9zujP_zLZV1oeoEwjew9zZHlZ_hqODvPfR21GIvHWxVcI5A" height="100px" width="100px"> </p>
+    </header>
+    <main>
+        <!-- Основна інформація сайту -->
+        <p>Лагідний, любить дітей, не вибагливий у їжі, навчений до лотка.</p>
+
+    </main>
+    <footer>
+    
+    <img id="Хвостик"
+     src="https://hromadske.ua/static/content/thumbs/*x*/7/ba/nurpja-72fb0f9189f4a45c115c04c475455ba7.jpg"height="130px" width="200px"> 
+    <p> 📍Хвостику 4,5 роки — чудовий вік для собаки-компаньйона; 19 кг — компактний для приватного будинку й цілком комфортний для квартири.
+    ✅ Повністю здоровий, кастрований, вакцинований, оброблений від паразитів, має ветпаспорт.</p>
+    
+    <img id="Жоржинка"
+    src="https://content.e-zoo.com.ua/img/uploads/blog/statya_262-1.jpg"
+    height=130"px" width= 200"px">
+    <p> Жоржинці потрібні родичі. Киця боязка до звуків, має потрібні прививки, не боїться людей. Вік: 2 роки.</p>
+    <img id="Бобік"
+     src="https://www.purina.ua/sites/default/files/styles/nppe_article_listing_home_930/public/2024-01/sitesdefaultfilesstylessquare_medium_440x440public2022-08Welsh20Corgi2028Pembroke291.jpg?itok=ainDlzqO" height=130"px" width= 200"px">
+    <p> Бобік- особливий песик, хоч він у притулку з іншими тваринками - йому потрібні справжні друзі, якими можете стати ви!</p>
+    
+    
+    <a href= "https://learn.logikaschool.com/lesson?module=2&lesson=30106&task=70134&level=6"> більше можете дізнатись тут </a> 
+    
+    <!--#Я вам тут ніколи не підпишуся!!! --> 
+    
+    </footer>
+</body>
+</html>
+
+
+
+
+
+body{
+    background-color: rgb(19, 138, 98);
+}
+
+.one{
+    background-color: yellowgreen; 
+    color:blue;
+    text-decoration:dashed;
+    font-size: 20px;
+    border: 1px solid L#EF930A;
+    border-radius: 30px;
+    padding:10px;
+    margin: 50x;
+}
+
+.two{
+    background-color: rgba(82, 19, 208, 0.413);
+    color:rgb(58, 13, 13);
+    text-decoration:dashed;
+    font-size: 20px;
+    border: 1px solid L#ef0a6d;
+    border-radius: 30px;
+    padding:10px;
+    margin: 50x;
+}
+
+.three{
+    background-color: rgb(51, 59, 35);
+    color:rgb(0, 255, 47);
+    text-decoration:dashed;
+    font-size: 20px;
+    border: 1px solid L#754907;
+    border-radius: 30px;
+    padding:10px;
+    margin: 50x;
+}
+
+.four{
+    background-color: rgb(156, 50, 205);
+    color:rgb(0, 255, 251);
+    text-decoration:dashed;
+    font-size: 20px;
+    border: 1px solid L#efdc0a;
+    border-radius: 30px;
+    padding:10px;
+    margin: 50x;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2{
+    color:rgb(255, 250, 240);
+}
+
+img{
+    background-color: azure;
+    border-radius: 10px;
+}
+
+main{
+    text-decoration: dashed;
+    font-size:10px;
+    margin: 5px
+}
+
+a href{
+    font-family: 'Courier New', Courier, monospace;
+    color:#527920;
+}
+
+footer, p{ 
+    color:white;
+}
