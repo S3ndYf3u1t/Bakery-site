@@ -1,0 +1,252 @@
+<html>
+<head>
+    <title>Інтернет-книгарня</title>  
+</head>
+<body>
+
+    <header>
+        <h1>Інтернет-книгарня "Читаємо разом"</h1>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="#main">Головна</a></li>
+            <li><a href="#catalog">Каталог</a></li>
+            <li><a href="#aboutus">Про нас</a></li>
+            <li><a href="#contacts">Контакти</a></li> 
+        </ul>
+    </nav>
+
+
+    <div id="catalog" class="container">
+        
+        <h1>Наші книги</h1>
+        <div class="books">
+            <div class="book">
+                <img id= "Каталог"
+                 src="https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/f/i/file_206_15.png" >
+                <h3>Дитяча енциклопедія наукових експериментів</h3>
+                <p>Автор: Томас Канаван</p>
+                <button>Купити</button>
+            </div>
+            <div class="book">
+                <img src="https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/i/m/img_0954_5.jpg" alt="Підводний світ. Дитяча енциклопедія (Блакитна)">
+                <h3>Підводний світ. Дитяча енциклопедія (Блакитна)</h3>
+                <p>Автор: Юлія Карпенко</p>
+                <button>Купити</button>
+            </div>
+            <div class="book">
+                <img src="https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/0/_/0_20_270.jpg" alt="Дитяча енциклопедія космосу">
+                <h3>Дитяча енциклопедія космосу</h3>
+                <p>Автор: Джайлс Сперроу</p>
+                <button>Купити</button>
+            </div>
+            <div class="book">
+                <img src="https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/i/m/image00031_28.jpg" alt="Дитяча енциклопедія. Чомусики">
+                <h3>Дитяча енциклопедія. Чомусики</h3>
+                <p>Автор: Ганна Логвінкова</p>
+                <button>Купити</button>
+            </div>
+        </div>
+    </div>
+        <section class="aboutus" id="about">
+    <div id="aboutus" class="container">
+        <h2 class="section-title">Про нас</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Інтернет-книгарня <strong>"Читаємо разом"</strong> була заснована у 2025 році з метою зробити книги доступними для всіх. Ми пропонуємо широкий вибір літератури: від класики до сучасних бестселерів.</p>
+                <p>Наша місія – надихати людей читати та відкривати нові світи через книги. Ми прагнемо забезпечити швидку доставку, зручний сервіс та приємний досвід покупок онлайн.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://img.freepik.com/free-vector/stack-many-books_1308-30874.jpg" alt="Про нас">
+            </div>
+        </div>
+    </div>
+</section> 
+         
+         
+         
+         <section class="contacts" id="contacts">
+            <h2>Контакти</h2>
+            <p>📍 Адреса: проспект Воскресенський, 10, Київ, Україна</p>
+            <p>📞 Телефон: +380 97 826 90 06</p>
+            <p>✉️ Email: nick.srebniuk@gmail.com</p>
+            <p>🕒 Графік роботи: Пн-Пт 9:00 - 18:00</p>
+        </section>
+    
+        <footer>
+            <p>© 2025 Інтернет-книгарня "Читаємо разом". Всі права захищені.</p>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+        }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.book {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.book:hover {
+    transform: scale(1.05);
+}
+
+.book img {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.book h3 {
+    margin: 15px 0 10px;
+    font-size: 18px;
+}
+
+.book p {
+    color: #555;
+}
+
+.book button {
+     margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.book button:hover {
+    background-color: #45a049;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+style>
+.about {
+    background-color: #ffffff;
+    padding: 60px 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.media{
+    max-width: 768px
+}
+
+.about-content {
+    flex-direction: column;
+    text-align: center;
+}
+
+ .about-image img {
+        max-width: 80%;
+        margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+}
