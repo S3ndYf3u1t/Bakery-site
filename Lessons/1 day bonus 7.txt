@@ -1,0 +1,13 @@
+<html>
+    <h1 style="color:navy">Кафе «Чарівні солодощі»</h1>
+    <p style="color:blueviolet">Плануєте покликати друзів в гості? - Замовте солодощі у нас!</p>
+        
+        <img src="/uploads/2020/10/cake-4206056_1920_0_1602250748.png" wight="300px" height="300px" > 
+        
+        <img src="/uploads/2020/10/cupcake-3868546_1920%201%20(1)_0_1602251008.png" height="290px" weight="290px">
+        
+        <img src="/uploads/2020/10/chocolate-cake-3189673_1920_0_1602250748.png" "200px" height="200px">
+        
+        <img src="/uploads/2020/10/ice-cream-308972_1280_0_1602250748.png" "300px" height="300px" ></p> <a href="https://snova-prazdnik.ru/temy-dlya-detskogo-prazdnika-10-mirovyx-idej/"> 
+        <font color="green">Ідеї для дитячих свят</font>
+</html>
