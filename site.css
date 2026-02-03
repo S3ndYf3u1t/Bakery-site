@@ -68,14 +68,14 @@ footer {
 }
 
 
-nav a:first-child(){
+nav a:first-child{
     padding:10px;
     border: 3px solid #d2691e;
     border-radius:10px;
 }
 
 
-nav a:last-child(){
+nav a:last-child{
     padding:10px;
     border: 3px solid #d2691e;
     border-radius:10px;
