@@ -39,6 +39,22 @@ nav a {
     transition: background-color 0.3s, color 0.3s;
 }
 
+nav a:last-child{
+    background-color: darkseagreen;
+}
+
+nav :nth-child(3){
+    background-color: #ff9900;
+}
+
+nav :nth-child(2){
+    background-color: brown;
+}
+
+nav :nth-child(1){
+    background-color: yellowgreen;
+}
+
 nav a:hover {
     background-color: #d2691e;
     color: #fff;
@@ -114,5 +130,10 @@ footer {
 footer h1 {
     font-size: 2em;
     font-family: 'Roboto';
+}
+
+
+footer div{
+    background-color: darkseagreen;
 }
 
