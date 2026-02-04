@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #d2691e;
+    background-color: darkorange;
     color: white;
     padding: 20px;
     text-align: center;
@@ -104,9 +104,15 @@ h2 {
 }
 
 footer {
-    background-color: #3b2f2f;
+    background-color: #ff9900;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
 }
+
+footer h1 {
+    font-size: 2em;
+    font-family: 'Roboto';
+}
+
